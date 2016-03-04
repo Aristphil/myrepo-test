@@ -12,8 +12,8 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 
 public class sparktest1 {
 	private static final int HTTP_BAD_REQUEST = 400;
-	//comment for git use;
-
+	//comment for transparency
+	
 	public static String dataToJson(Object data) {
 		System.out.println("Data received by dataToJson " + data); //DEBUG
 		ObjectMapper mapper=new ObjectMapper();
